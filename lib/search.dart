@@ -23,9 +23,9 @@ class DataSearch extends SearchDelegate<String>{
 
   @override
   Widget buildLeading(BuildContext context) {
-    return null;
-  }
-
+    return[
+      IconButton(icon:Icon(Icons.clear),onPressed: (){})
+    ]; 
   @override
   Widget buildResults(BuildContext context) {
     // TODO: implement buildResults
